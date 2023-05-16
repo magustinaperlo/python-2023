@@ -43,6 +43,8 @@ a = []
 cargarLista(a)
 
 
+###########
+
 
 def diferenciaParesImpares(lista):
     listapar=[]
@@ -54,6 +56,6 @@ def diferenciaParesImpares(lista):
             listaimpar.append(i)
     print (listapar)
     print (listaimpar)
-lista=[1,2,3,4,5,6,7,8,9]
+lista=[2,42,1,45,76,85,8]
 diferenciaParesImpares(lista)
     
