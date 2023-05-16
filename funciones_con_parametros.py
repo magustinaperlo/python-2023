@@ -31,4 +31,29 @@ regla3(num1 = int(input("Ingrese se primer numero para la regla de 3 simple:  ")
 ###########
 
 
-#def cargarsadsadsadas
+def cargarLista(lista):
+    estado = 1
+    while (estado==1):
+        nombre = input("ingrese un nombre: ")
+        estado = int(input("Desea continuar? 1-Si Otro-No:  "))
+        lista.append(nombre)
+    print (lista)
+
+a = []
+cargarLista(a)
+
+
+
+def diferenciaParesImpares(lista):
+    listapar=[]
+    listaimpar=[]
+    for i in lista:
+        if (i % 2 ==0):
+            listapar.append(i)
+        else:
+            listaimpar.append(i)
+    print (listapar)
+    print (listaimpar)
+lista=[1,2,3,4,5,6,7,8,9]
+diferenciaParesImpares(lista)
+    
