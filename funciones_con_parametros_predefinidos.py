@@ -42,7 +42,33 @@ def semana(dia = "lunes"):
     if dia == "domingo":
         print ("el domingo haran " + domingo)
 semana()
-
+"""
+Profe
+"""
+def semana(dia):
+    lunes = "10°"
+    martes = "18°"
+    miercoles = "28°"
+    jueves = "52°, ayudaaa!!!"
+    viernes = "5°"
+    sabado = "6°"
+    domingo = "32°"
+    if dia == "lunes":
+        print ("el lunes haran " + lunes)
+    if dia == "martes":
+        print ("el martes haran " + martes)
+    if dia == "miercoles":
+        print ("el miercoles haran " + miercoles)
+    if dia == "jueves":
+        print ("el jueves haran " + jueves)
+    if dia == "viernes":
+        print ("el viernes haran " + viernes)
+    if dia == "sabado":
+        print ("el sabado haran " + sabado)
+    if dia == "domingo":
+        print ("el domingo haran " + domingo)
+        
+semana(dia="miercoles") 
 
 #######
 
@@ -53,8 +79,8 @@ def eleccionGenero( genero = "indefinido"):
 eleccionGenero(input("Ingrese su genero: "))
 
 
-########
 
+#######
 
 def preferenciaColor(color = "rojo"):
     rojo="a mi tambien me gusta "
@@ -64,3 +90,5 @@ def preferenciaColor(color = "rojo"):
     else:
         print("es un lindo color ")
 preferenciaColor(input("que color te gusta? "))
+
+"""aplica lo mismo que colocamos en los dias de la semana con la temperatura"""
