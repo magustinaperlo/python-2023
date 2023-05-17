@@ -18,7 +18,8 @@ bienvenida()
 def cancion ():
     print(" 2 y 2 son 4, 4 y dos son 6, 6 y 2 son 8 y 8 16!!!")
 cancion()
-
+"""
+LO LEÌ CANTANDO """
 
 ########
 
@@ -39,3 +40,11 @@ def dado ():
     dado = random.randint(1,6)
     print (dado)
 dado()
+"""
+MUY DIVERTIDA, SUGERENCIA 
+
+import random
+
+añadir el import random para que los otros desarrolladores puedan utilizarla ni bien copypastean tu codigo"""
+
+
