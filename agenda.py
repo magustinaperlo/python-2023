@@ -189,3 +189,14 @@ while True:
 
     if op == 5:
         break
+        
+ '''salvedades:
+En la opción 1 , 2 y 3 , del menú principal, dentro del bucle while, se repite la pregunta "¿Desea agregar más contactos?"
+incluso después de que se haya ingresado una opción válida. Puedes mover la pregunta fuera del bucle while para que solo
+se pregunte una vez al final.
+En la opción 4 del menú principal, en lugar de usar un bucle for i, k in(agenda.items()):,
+deberías usar for i, k in agenda.items(): para obtener las claves y valores de forma corretca.
+En la opción 3 del menú principal, al solicitar al usuario que confirme la eliminación de un contacto, el valor ingresado se almacena en la variable op, pero no se realiza ninguna validación en ese momento.
+Debes asignar el resultado de validarOpcion12(op) a la variable op para asegurar
+de que sea un valor válido antes de usarlo en la condición if.
+El nombre de las funciones no condice con la nomenclatura que hemos visto a comienzo de año con las buenas prácticas ! Revisar eso para las p`róxiimas entregas !! 
